@@ -1,0 +1,23 @@
+{
+  "name": "hbnu-node-ssr",
+  "version": "1.0.0",
+  "private": true,
+  "description": "한밭대학교 과제용 Express + React SSR 스타터",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "node scripts/dev.js",
+    "build": "node scripts/build.js",
+    "start": "node dist/server/index.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
